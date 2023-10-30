@@ -1,0 +1,17 @@
+<h1>id token</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr class="row">
+            <th class="col-4">key</th>
+            <th class="col-8">value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @id_token.each do |key, value| %>
+            <tr class="row">
+                <td class="col-4"><%= key %></td>
+                <td class="col-8"><%= value %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
