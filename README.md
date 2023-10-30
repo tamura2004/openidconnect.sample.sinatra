@@ -1,0 +1,2 @@
+# openidconnect.sample.sinatra
+sinatraによるopenidconnectクライアントの実装例
